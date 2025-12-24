@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1600&q=80") no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player {
+  width: 320px;
+  background: #1e1e2f;
+  border-radius: 16px;
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.cover {
+  height: 200px;
+  background: linear-gradient(100deg,rgb(86, 154, 207),rgb(244, 174, 13), rgb(45, 185, 138));
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.music-icon {
+  font-size: 60px;
+}
+
+.details {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.details h2 {
+  font-size: 18px;
+}
+
+.details p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  margin: 15px 0;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 6px;
+  background: #444;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  width: 40%;
+  height: 100%;
+  background: lightcoral;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 20px 0;
+}
+
+.control {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  transition: transform 0.2s, color 0.2s;
+}
+
+
+.play {
+  font-size: 28px;
+}
+
+.volume {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.volume-bar {
+  flex: 1;
+  height: 5px;
+  background: #444;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.volume-level {
+  width: 60%;
+  height: 100%;
+  background: lightgreen;
+}
